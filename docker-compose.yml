@@ -1,0 +1,15 @@
+services:
+  webfolio-app:
+    container_name: webfolio-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    environment:
+      - NODE_ENV=production
+    ports:
+      # BIND TO LOCALHOST ONLY for CloudPanel Reverse Proxy Security
+      - "127.0.0.1:3000:3000"
+    volumes:
+      # Optional: Persist logs
+      - ./logs:/app/logs

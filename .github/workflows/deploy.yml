@@ -1,0 +1,32 @@
+name: Deploy to CloudPanel VPS
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Deploy via SSH
+      uses: appleboy/ssh-action@v1.0.0
+      with:
+        host: ${{ secrets.VPS_HOST }}
+        username: ${{ secrets.VPS_USER }}
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        port: 22
+        script: |
+          # Navigate to project directory (Adjust path as needed)
+          cd /home/${{ secrets.VPS_USER }}/htdocs/your-domain.com/
+
+          # Pull latest code
+          git pull origin main
+
+          # Rebuild and restart container
+          # Utilizing cache for faster builds
+          docker-compose up --build -d
+
+          # Prune unused images to save space
+          docker image prune -f
