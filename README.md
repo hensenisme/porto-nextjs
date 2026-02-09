@@ -33,36 +33,36 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
 
-    ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
-    ```
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+   ```
 
 2. **Install dependencies:**
 
-    ```bash
-    npm install
-    # or
-    yarn install
-    ```
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
 3. **Run the development server:**
 
-    ```bash
-    npm run dev
-    # or
-    yarn dev
-    ```
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
 4. **Open your browser:**
-    Navigate to [http://localhost:3000](http://localhost:3000) to see the result.
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the result.
 
 ## 🤝 Contact
 
 Feel free to reach out for collaborations or just a friendly hello!
 
 - **Email:** <hensenisme@gmail.com>
-- **LinkedIn:** [Hendri Gunawan](https://linkedin.com/in/hensenisme)
+- **LinkedIn:** [Hendri Gunawan](https://linkedin.com/in/hendrig)
 - **GitHub:** [hensenisme](https://github.com/hensenisme)
 
 ---
