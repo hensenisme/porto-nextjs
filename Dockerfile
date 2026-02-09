@@ -1,5 +1,5 @@
 # 1. Base Image: Use Node Alpine for smaller footprint
-FROM node:18-alpine AS base
+FROM node:20-alpine AS base
 
 # 2. Dependency Installation Stage
 FROM base AS deps
