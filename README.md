@@ -62,7 +62,7 @@ To run this project locally, follow these steps:
 Feel free to reach out for collaborations or just a friendly hello!
 
 - **Email:** <hensenisme@gmail.com>
-- **LinkedIn:** [Hendri Gunawan](https://linkedin.com/in/hendrig)
+- **LinkedIn:** [Hendrig](https://linkedin.com/in/hendrig)
 - **GitHub:** [hensenisme](https://github.com/hensenisme)
 
 ---
