@@ -16,7 +16,7 @@ jobs:
         host: ${{ secrets.VPS_HOST }}
         username: ${{ secrets.VPS_USER }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
-        port: 22
+        port: 64
         script: |
           # Navigate to project directory (Adjust path as needed)
           cd /home/${{ secrets.VPS_USER }}/htdocs/hendri.tech/
