@@ -19,7 +19,7 @@ jobs:
         port: 22
         script: |
           # Navigate to project directory (Adjust path as needed)
-          cd /home/${{ secrets.VPS_USER }}/htdocs/your-domain.com/
+          cd /home/${{ secrets.VPS_USER }}/htdocs/hendri.tech/
 
           # Pull latest code
           git pull origin main
