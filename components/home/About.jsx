@@ -143,7 +143,7 @@ function About() {
                   with React & Next.js, cross-platform mobile apps with
                   Flutter, or innovative IoT systems.
                 </p>
-                <Link href="/assets/cv.pdf" target="_blank" className="butn butn-md butn-bord radius-30 mt-30">
+                <Link href="/assets/CV-Hensen.pdf" target="_blank" className="butn butn-md butn-bord radius-30 mt-30">
                   <span className="text">Download CV</span>
                 </Link>
                 <div className="numbers mt-50">
