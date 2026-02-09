@@ -1,0 +1,423 @@
+Folder PATH listing for volume New Volume
+Volume serial number is A08D-BD59
+D:.
+|   .eslintrc.json
+|   export.bat
+|   jsconfig.json
+|   next.config.js
+|   nextjs_code.md
+|   nextjs_project.pdf
+|   package-lock.json
+|   package.json
+|   struktur.bat
+|   struktur.txt
+|   
++---.next
+|   |   app-build-manifest.json
+|   |   build-manifest.json
+|   |   package.json
+|   |   react-loadable-manifest.json
+|   |   trace
+|   |   
+|   +---cache
+|   |   +---swc
+|   |   |   \---plugins
+|   |   |       \---v7_windows_x86_64_0.104.41
+|   |   \---webpack
+|   |       +---client-development
+|   |       |       0.pack.gz
+|   |       |       1.pack.gz
+|   |       |       10.pack.gz
+|   |       |       11.pack.gz
+|   |       |       12.pack.gz
+|   |       |       13.pack.gz
+|   |       |       14.pack.gz
+|   |       |       15.pack.gz
+|   |       |       16.pack.gz
+|   |       |       17.pack.gz
+|   |       |       18.pack.gz
+|   |       |       19.pack.gz
+|   |       |       2.pack.gz
+|   |       |       20.pack.gz
+|   |       |       21.pack.gz
+|   |       |       22.pack.gz
+|   |       |       23.pack.gz
+|   |       |       24.pack.gz
+|   |       |       25.pack.gz
+|   |       |       26.pack.gz
+|   |       |       27.pack.gz
+|   |       |       28.pack.gz
+|   |       |       29.pack.gz
+|   |       |       3.pack.gz
+|   |       |       4.pack.gz
+|   |       |       5.pack.gz
+|   |       |       6.pack.gz
+|   |       |       7.pack.gz
+|   |       |       8.pack.gz
+|   |       |       9.pack.gz
+|   |       |       index.pack.gz
+|   |       |       index.pack.gz.old
+|   |       |       
+|   |       +---client-development-fallback
+|   |       |       0.pack.gz
+|   |       |       index.pack.gz.old
+|   |       |       
+|   |       \---server-development
+|   |               0.pack.gz
+|   |               1.pack.gz
+|   |               10.pack.gz
+|   |               11.pack.gz
+|   |               12.pack.gz
+|   |               13.pack.gz
+|   |               14.pack.gz
+|   |               15.pack.gz
+|   |               16.pack.gz
+|   |               17.pack.gz
+|   |               18.pack.gz
+|   |               19.pack.gz
+|   |               2.pack.gz
+|   |               20.pack.gz
+|   |               21.pack.gz
+|   |               22.pack.gz
+|   |               23.pack.gz
+|   |               24.pack.gz
+|   |               25.pack.gz
+|   |               26.pack.gz
+|   |               27.pack.gz
+|   |               28.pack.gz
+|   |               29.pack.gz
+|   |               3.pack.gz
+|   |               30.pack.gz
+|   |               31.pack.gz
+|   |               32.pack.gz
+|   |               33.pack.gz
+|   |               34.pack.gz
+|   |               35.pack.gz
+|   |               36.pack.gz
+|   |               37.pack.gz
+|   |               4.pack.gz
+|   |               5.pack.gz
+|   |               6.pack.gz
+|   |               7.pack.gz
+|   |               8.pack.gz
+|   |               9.pack.gz
+|   |               index.pack.gz
+|   |               index.pack.gz.old
+|   |               
+|   +---server
+|   |   |   app-paths-manifest.json
+|   |   |   middleware-build-manifest.js
+|   |   |   middleware-manifest.json
+|   |   |   middleware-react-loadable-manifest.js
+|   |   |   next-font-manifest.js
+|   |   |   next-font-manifest.json
+|   |   |   pages-manifest.json
+|   |   |   server-reference-manifest.js
+|   |   |   server-reference-manifest.json
+|   |   |   webpack-runtime.js
+|   |   |   
+|   |   +---app
+|   |   |   |   not-found.js
+|   |   |   |   not-found_client-reference-manifest.js
+|   |   |   |   page.js
+|   |   |   |   page_client-reference-manifest.js
+|   |   |   |   _not-found_client-reference-manifest.js
+|   |   |   |   
+|   |   |   \---favicon.ico
+|   |   |           route.js
+|   |   |           
+|   |   \---vendor-chunks
+|   |           @swc.js
+|   |           dom7.js
+|   |           gsap.js
+|   |           next.js
+|   |           ssr-window.js
+|   |           styled-jsx.js
+|   |           swiper.js
+|   |           three.js
+|   |           
+|   +---static
+|   |   +---chunks
+|   |   |   |   app-pages-internals.js
+|   |   |   |   main-app.js
+|   |   |   |   polyfills.js
+|   |   |   |   webpack.js
+|   |   |   |   
+|   |   |   \---app
+|   |   |           layout.js
+|   |   |           not-found.js
+|   |   |           page.js
+|   |   |           
+|   |   +---css
+|   |   |   \---app
+|   |   |           layout.css
+|   |   |           
+|   |   +---development
+|   |   |       _buildManifest.js
+|   |   |       _ssgManifest.js
+|   |   |       
+|   |   \---webpack
+|   |           633457081244afec._.hot-update.json
+|   |           
+|   \---types
+|       |   package.json
+|       |   
+|       \---app
+|               layout.ts
+|               page.ts
+|               
++---app
+|   |   favicon.ico
+|   |   globals.css
+|   |   layout.js
+|   |   not-found.js
+|   |   page.js
+|   |   
+|   +---blog-classic
+|   |       page.js
+|   |       
+|   +---blog-details
+|   |       page.js
+|   |       
+|   +---blog-grid-3column
+|   |       page.js
+|   |       
+|   +---blog-grid-sidebar
+|   |       page.js
+|   |       
+|   +---home-creative-agency
+|   |       page.js
+|   |       
+|   +---home-digital-agency
+|   |       page.js
+|   |       
+|   +---home-main
+|   |       page.js
+|   |       
+|   +---home-modern-studio
+|   |       page.js
+|   |       
+|   +---home-personal
+|   |       page.js
+|   |       
+|   +---page-404
+|   |       page.js
+|   |       
+|   +---page-about
+|   |       page.js
+|   |       
+|   +---page-contact
+|   |       page.js
+|   |       
+|   +---page-FAQ
+|   |       page.js
+|   |       
+|   +---page-services
+|   |       page.js
+|   |       
+|   +---page-services-details
+|   |       page.js
+|   |       
+|   +---page-team
+|   |       page.js
+|   |       
+|   +---page-team-details
+|   |       page.js
+|   |       
+|   +---portfolio-creative
+|   |       page.js
+|   |       
+|   +---portfolio-creative-carousel
+|   |       page.js
+|   |       
+|   +---portfolio-gallery
+|   |       page.js
+|   |       
+|   +---portfolio-grid
+|   |       page.js
+|   |       
+|   +---portfolio-masonry
+|   |       page.js
+|   |       
+|   \---project-details
+|           page.js
+|           
++---common
+|       correctStylesheetsOrder.js
+|       generateStylesheetsObject.js
+|       hscroll.js
+|       initIsotope.js
+|       initIsotope2.js
+|       isInView.js
+|       loadBackgroudImages.js
+|       rolling.js
+|       scrollToTop.js
+|       
++---components
+|   +---blog-classic
+|   |       Blogs.jsx
+|   |       Header.jsx
+|   |       
+|   +---blog-details
+|   |       Blog.jsx
+|   |       Header.jsx
+|   |       
+|   +---blog-grid-3column
+|   |       Blogs.jsx
+|   |       Header.jsx
+|   |       
+|   +---blog-grid-sidebar
+|   |       Blogs.jsx
+|   |       Header.jsx
+|   |       
+|   +---common
+|   |       Clients.jsx
+|   |       cusor.jsx
+|   |       Footer.jsx
+|   |       Lines.jsx
+|   |       loader.jsx
+|   |       Marq2.jsx
+|   |       Navbar.jsx
+|   |       ProgressScroll.jsx
+|   |       
+|   +---home-creative-agency
+|   |       Blog.jsx
+|   |       Header.jsx
+|   |       Intro.jsx
+|   |       Intro2.jsx
+|   |       Numbers.jsx
+|   |       Portfolio.jsx
+|   |       Services.jsx
+|   |       Team.jsx
+|   |       Testimonials.jsx
+|   |       
+|   +---home-digital-agency
+|   |       Blog.jsx
+|   |       Feat.jsx
+|   |       Header.jsx
+|   |       Intro2.jsx
+|   |       Numbers.jsx
+|   |       Portfolio.jsx
+|   |       Services.jsx
+|   |       Testimonials.jsx
+|   |       
+|   +---home-main
+|   |       Blog.jsx
+|   |       Clients.jsx
+|   |       Feat.jsx
+|   |       Header.jsx
+|   |       Intro.jsx
+|   |       Marq.jsx
+|   |       Portfolio.jsx
+|   |       Services.jsx
+|   |       Team.jsx
+|   |       Testimonials.jsx
+|   |       
+|   +---home-modern-studio
+|   |       Feat.jsx
+|   |       Header.jsx
+|   |       Intro.jsx
+|   |       Numbers.jsx
+|   |       Portfolio.jsx
+|   |       Services.jsx
+|   |       Team.jsx
+|   |       Testimonials.jsx
+|   |       
+|   +---home-personal
+|   |       About.jsx
+|   |       Header.jsx
+|   |       Marq.jsx
+|   |       Portfolio.jsx
+|   |       Services.jsx
+|   |       Skills.jsx
+|   |       
+|   +---landing
+|   |       Demos.jsx
+|   |       Footer.jsx
+|   |       Header.jsx
+|   |       Marq.jsx
+|   |       Navbar.jsx
+|   |       Pages.jsx
+|   |       Show.jsx
+|   |       Testimonials.jsx
+|   |       
+|   +---p-creative
+|   |       Portfolio.jsx
+|   |       
+|   +---p-creative-carousel
+|   |       Portfolio.jsx
+|   |       
+|   +---p-gallery
+|   |       Header.jsx
+|   |       Portfolio.jsx
+|   |       
+|   +---p-grid
+|   |       Header.jsx
+|   |       Portfolio.jsx
+|   |       
+|   +---p-masonry
+|   |       Header.jsx
+|   |       Portfolio.jsx
+|   |       
+|   +---page-404
+|   |       Error.jsx
+|   |       
+|   +---page-about
+|   |       Header.jsx
+|   |       Intro.jsx
+|   |       Numbers.jsx
+|   |       Services.jsx
+|   |       
+|   +---page-contact
+|   |       Contact.jsx
+|   |       Header.jsx
+|   |       Map.jsx
+|   |       
+|   +---page-FAQ
+|   |       FAQS.jsx
+|   |       Header.jsx
+|   |       Numbers.jsx
+|   |       
+|   +---page-services
+|   |       Header.jsx
+|   |       Numbers.jsx
+|   |       
+|   +---page-services-details
+|   |       Feat.jsx
+|   |       Header.jsx
+|   |       Intro.jsx
+|   |       
+|   +---page-team
+|   |       Header.jsx
+|   |       Intro.jsx
+|   |       
+|   +---page-team-details
+|   |       Header.jsx
+|   |       Intro.jsx
+|   |       Services.jsx
+|   |       
+|   \---project-details
+|           Challenge.jsx
+|           Header.jsx
+|           Next.jsx
+|           Solution.jsx
+|           Works.jsx
+|           Wroks2.jsx
+|           
++---contexts
+|       DeviceContext.js
+|       
++---data
+|   |   clients.json
+|   |   services.json
+|   |   team-t.json
+|   |   team.json
+|   |   testimonials.json
+|   |   
+|   \---portfolios
+|           works0.json
+|           works1.json
+|           works3.json
+|           worksfull.json
+|           workstand.json
+|           

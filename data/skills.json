@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Web Development",
+        "iconSrc": "/assets/imgs/resume/s2.png",
+        "level": 90,
+        "description": "Mengembangkan aplikasi web full-stack yang fungsional dan responsif menggunakan React, Next.js, dan Node.js."
+    },
+    {
+        "name": "Mobile Development",
+        "iconSrc": "/assets/imgs/resume/s_flutter.png",
+        "level": 85,
+        "description": "Membangun aplikasi mobile cross-platform untuk Android dan iOS menggunakan Flutter."
+    },
+    {
+        "name": "IoT & Embedded",
+        "iconSrc": "/assets/imgs/resume/s_iot.png",
+        "level": 95,
+        "description": "Merancang dan memprogram sistem tertanam (embedded systems) dan solusi Internet of Things (IoT) menggunakan mikrokontroller seperti ESP32."
+    },
+    {
+        "name": "Cloud & DevOps",
+        "iconSrc": "/assets/imgs/resume/s_cloud.png",
+        "level": 80,
+        "description": "Menangani setup dan maintenance server (Ubuntu, Nginx), deployment, serta konfigurasi jaringan dan cloud."
+    },
+    {
+        "name": "Electrical Engineering",
+        "iconSrc": "/assets/imgs/resume/s_electrical.png",
+        "level": 88,
+        "description": "Keahlian dalam elektronika arus lemah dan kuat, termasuk instalasi sistem kelistrikan seperti PLTS."
+    },
+    {
+        "name": "UI/UX Design",
+        "iconSrc": "/assets/imgs/resume/s1.png",
+        "level": 75,
+        "description": "Merancang antarmuka pengguna yang intuitif dan fungsional menggunakan tools seperti Figma."
+    }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "web-development",
+    "title": "Web Development",
+    "img": "/assets/imgs/resume/s_next.svg",
+    "desc": "Building responsive and performant web applications using modern stacks like React, Next.js, and Node.js.",
+    "tags": [
+      "React",
+      "Next.js",
+      "Node.js",
+      "Full-Stack"
+    ],
+    "details": "I specialize in creating dynamic user interfaces with React and leveraging Next.js for server-side rendering, static site generation, and optimized performance. My backend expertise includes building robust APIs with Node.js and Express, connecting to databases like MongoDB or PostgreSQL. I focus on clean code, maintainability, and excellent user experience."
+  },
+  {
+    "slug": "mobile-development",
+    "title": "Mobile App Development",
+    "img": "/assets/imgs/resume/s_flutter.png",
+    "desc": "Developing cross-platform mobile applications for Android & iOS using Flutter and Dart.",
+    "tags": [
+      "Flutter",
+      "Dart",
+      "Android",
+      "iOS"
+    ],
+    "details": "With Flutter, I build beautiful, natively compiled applications for mobile from a single codebase. I handle state management, API integration, and create smooth, engaging user interfaces following platform best practices. Experienced in developing features from scratch and maintaining existing applications."
+  },
+  {
+    "slug": "iot-embedded-systems",
+    "title": "IoT & Embedded Systems",
+    "img": "/assets/imgs/resume/s_iot.png",
+    "desc": "Designing and programming microcontroller-based systems (ESP32, Arduino) for IoT solutions and automation.",
+    "tags": [
+      "IoT",
+      "ESP32",
+      "Arduino",
+      "MicroPython",
+      "Sensors"
+    ],
+    "details": "I have hands-on experience in developing IoT solutions, from selecting appropriate sensors and microcontrollers (like ESP32 and Arduino families) to writing firmware using Arduino C++ or MicroPython. I integrate devices with cloud platforms using protocols like MQTT, manage data streams, and build control systems for automation projects like Smart Homes or Smart Farming."
+  }
+]
