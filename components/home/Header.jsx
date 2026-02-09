@@ -13,7 +13,7 @@ function Header() {
   const nameRef = useRef(null);
   const [typedText, setTypedText] = useState('');
 
-  const fullText = 'Software & IoT Engineer';
+  const fullText = 'Sooftware & IoT Engineer';
 
   useLayoutEffect(() => {
     let originalHTML = '';
@@ -363,7 +363,7 @@ function Header() {
                   ref={nameRef}
                 >
                   Hendri Gunawan
-                  <span className="main-color"> (a.k.a Hensen)</span>
+                  <span className="main-color">  (a.k.a Hensen)</span>
                 </h2>
                 <h3>
                   I am a {typedText}
