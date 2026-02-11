@@ -375,8 +375,7 @@ function Header() {
                   <div className="col-lg-9">
                     <div className="text mt-30">
                       <p>
-                        Mahasiswa Teknik Komputer dengan passion di bidang IoT,
-                        Software Engineering, dan Cloud
+                        Computer Engineering graduate with a focus on end-to-end IoT system development, software engineering, and cloud-based solutions.
                       </p>
                     </div>
                     {/* Button with Arrow on Top */}

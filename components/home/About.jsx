@@ -133,15 +133,10 @@ function About() {
                   <span className="fw-200">
                     Software & IoT Engineer
                   </span>{' '}
-                  focused on modern digital product development.
+                  focused on building modern digital systems.
                 </h4>
                 <p>
-                  As an Information Technology graduate, I have a passion for
-                  transforming complex ideas into functional and intuitive
-                  digital solutions. My goal is to build impactful digital
-                  experiences, whether it&apos;s sophisticated web applications
-                  with React & Next.js, cross-platform mobile apps with
-                  Flutter, or innovative IoT systems.
+                  With a background in Computer Engineering, I work on transforming complex technical requirements into clear and functional solutions. My experience includes full-stack web development, cross-platform mobile applications, and end-to-end IoT systems, with an emphasis on maintainability and scalability.
                 </p>
                 <Link href="/assets/CV-Hensen.pdf" target="_blank" className="butn butn-md butn-bord radius-30 mt-30">
                   <span className="text">Download CV</span>

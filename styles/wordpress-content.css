@@ -4,117 +4,221 @@
 */
 
 .wordpress-content {
-    line-height: 1.7;
-    font-size: 18px;
-    color: #ccc; /* Sedikit lebih terang dari default */
-  }
-  
-  /* Paragraf */
-  .wordpress-content p {
-    margin-bottom: 24px;
-  }
-  
-  /* Headings */
-  .wordpress-content h1,
-  .wordpress-content h2,
-  .wordpress-content h3,
-  .wordpress-content h4,
-  .wordpress-content h5,
-  .wordpress-content h6 {
-    font-weight: 600;
-    line-height: 1.3;
-    margin-top: 48px;
-    margin-bottom: 20px;
-    color: #fff;
-  }
-  
-  .wordpress-content h2 { font-size: 2.25rem; } /* 36px */
-  .wordpress-content h3 { font-size: 1.875rem; } /* 30px */
-  .wordpress-content h4 { font-size: 1.5rem; } /* 24px */
-  
-  /* Lists */
-  .wordpress-content ul,
-  .wordpress-content ol {
-    margin-left: 24px;
-    margin-bottom: 24px;
-    padding-left: 1em; /* Mempertahankan padding untuk indentasi */
-  }
-  
-  .wordpress-content ul {
-    list-style-type: disc !important; /* Paksa gunakan disc */
-    list-style: disc !important;
-  }
-  
-  .wordpress-content ol {
-    list-style-type: decimal !important; /* Paksa gunakan decimal */
-    list-style: decimal !important;
-  }
-  
-  .wordpress-content li {
-    margin-bottom: 12px;
-    padding-left: 8px;
-    /* Reset override dari template */
-    list-style: inherit !important;
-    padding: 0 !important;
-  }
-  
-  /* Hapus pseudo-element (kotak custom) dari template */
-  .wordpress-content li::before {
-    display: none !important;
-    content: none !important;
-  }
-  
-  .wordpress-content li > ul,
-  .wordpress-content li > ol {
-    margin-top: 12px;
-  }
-  
-  /* Blockquotes */
-  .wordpress-content blockquote {
-    margin: 40px 0;
-    padding: 20px 30px;
-    border-left: 4px solid var(--main-color, #fd5b38);
-    background: #1f1f1f;
-    font-style: italic;
-    font-size: 20px;
-    color: #fff;
-  }
-  
-  .wordpress-content blockquote p {
-    margin-bottom: 0;
-  }
-  
-  /* Links */
-  .wordpress-content a {
-    color: var(--main-color, #fd5b38);
-    text-decoration: underline;
-    text-underline-offset: 4px;
-    transition: opacity 0.3s ease;
-  }
-  
-  .wordpress-content a:hover {
-    opacity: 0.8;
-  }
-  
-  /* Images from WordPress */
-  .wordpress-content img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin: 30px 0;
-    pointer-events: none !important; /* <-- PERUBAHAN DI SINI (ditambah !important) */
-  }
-  
-  /* Preformatted / Code */
-  .wordpress-content pre {
-    background: #1a1a1a;
-    padding: 20px;
-    border-radius: 8px;
-    border: 1px solid #333;
-    overflow-x: auto;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
-    margin-bottom: 24px;
-  }
-  
-  
+  line-height: 1.7;
+  font-size: 18px;
+  color: #ccc;
+  /* Sedikit lebih terang dari default */
+}
+
+/* Paragraf */
+.wordpress-content p {
+  margin-bottom: 24px;
+}
+
+/* Headings */
+.wordpress-content h1,
+.wordpress-content h2,
+.wordpress-content h3,
+.wordpress-content h4,
+.wordpress-content h5,
+.wordpress-content h6 {
+  font-weight: 600;
+  line-height: 1.3;
+  margin-top: 48px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.wordpress-content h2 {
+  font-size: 2.25rem;
+}
+
+/* 36px */
+.wordpress-content h3 {
+  font-size: 1.875rem;
+}
+
+/* 30px */
+.wordpress-content h4 {
+  font-size: 1.5rem;
+}
+
+/* 24px */
+
+/* Lists */
+.wordpress-content ul,
+.wordpress-content ol {
+  margin-left: 24px;
+  margin-bottom: 24px;
+  padding-left: 1em;
+  /* Mempertahankan padding untuk indentasi */
+}
+
+.wordpress-content ul {
+  list-style-type: disc !important;
+  /* Paksa gunakan disc */
+  list-style: disc !important;
+}
+
+.wordpress-content ol {
+  list-style-type: decimal !important;
+  /* Paksa gunakan decimal */
+  list-style: decimal !important;
+}
+
+.wordpress-content li {
+  margin-bottom: 12px;
+  padding-left: 8px;
+  /* Reset override dari template */
+  list-style: inherit !important;
+  padding: 0 !important;
+}
+
+/* Hapus pseudo-element (kotak custom) dari template */
+.wordpress-content li::before {
+  display: none !important;
+  content: none !important;
+}
+
+.wordpress-content li>ul,
+.wordpress-content li>ol {
+  margin-top: 12px;
+}
+
+/* Blockquotes */
+.wordpress-content blockquote {
+  margin: 40px 0;
+  padding: 20px 30px;
+  border-left: 4px solid var(--main-color, #fd5b38);
+  background: #1f1f1f;
+  font-style: italic;
+  font-size: 20px;
+  color: #fff;
+}
+
+.wordpress-content blockquote p {
+  margin-bottom: 0;
+}
+
+/* Links */
+.wordpress-content a {
+  color: var(--main-color, #fd5b38);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition: opacity 0.3s ease;
+}
+
+.wordpress-content a:hover {
+  opacity: 0.8;
+}
+
+/* Images from WordPress */
+.wordpress-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 30px 0;
+  pointer-events: none !important;
+  /* <-- PERUBAHAN DI SINI (ditambah !important) */
+}
+
+/* Preformatted / Code */
+.wordpress-content pre {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  overflow-x: auto;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  margin-bottom: 24px;
+  white-space: pre-wrap;
+  /* Wrap long lines */
+}
+
+/* Tables */
+/* Tables - Industrial Style */
+.wordpress-content table {
+  width: 100%;
+  margin-bottom: 30px;
+  border-collapse: separate;
+  /* Changed for border-radius on modern browsers */
+  border-spacing: 0;
+  background: #151515;
+  /* Darker base */
+  border: 1px solid #333;
+  border-radius: 4px;
+  /* Slightly sharper corners */
+  overflow: hidden;
+}
+
+.wordpress-content figure.wp-block-table {
+  margin: 0 0 30px 0;
+  overflow-x: auto;
+}
+
+.wordpress-content th,
+.wordpress-content td {
+  padding: 16px 20px;
+  /* Increased padding */
+  border-bottom: 1px solid #2a2a2a;
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+  /* Vertical separator */
+  color: #ccc;
+  text-align: left;
+  vertical-align: top;
+}
+
+.wordpress-content th:last-child,
+.wordpress-content td:last-child {
+  border-right: none;
+}
+
+/* Header Styling */
+.wordpress-content th {
+  font-weight: 700;
+  background: #1f1f1f;
+  color: #fff;
+  border-bottom: 2px solid #fd5b38;
+  /* Accent color */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.85rem;
+}
+
+/* Zebra Striping */
+.wordpress-content tr:nth-child(even) td {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+/* Hover Effect */
+.wordpress-content tr:hover td {
+  background-color: rgba(253, 91, 56, 0.05);
+  /* Subtle tint of main color */
+  color: #fff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* First Column Fixed Width (Datasheet Style) */
+.wordpress-content tr td:first-child,
+.wordpress-content tr th:first-child {
+  width: 30%;
+  /* Fixed width for labels */
+  font-weight: 600;
+  color: #eee;
+  background-color: rgba(255, 255, 255, 0.01);
+  /* Slight distinction */
+}
+
+.wordpress-content tr:last-child td {
+  border-bottom: none;
+}
+
+/* Figure Captions */
+.wordpress-content figcaption {
+  font-size: 14px;
+  color: #888;
+  text-align: center;
+  margin-top: 10px;
+  font-style: italic;
+}
