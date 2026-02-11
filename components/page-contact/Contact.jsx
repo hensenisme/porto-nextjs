@@ -86,10 +86,10 @@ function Contact() {
                 <a href="https://github.com/hensenisme" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-github"></i>
                 </a>
-                <a href="https://linkedin.com/in/hensenisme" target="_blank" rel="noopener noreferrer">
+                <a href="https://linkedin.com/in/hendrig" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-linkedin-in"></i>
                 </a>
-                <a href="https://instagram.com/hensenisme" target="_blank" rel="noopener noreferrer">
+                <a href="https://instagram.com/hens3n" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-instagram"></i>
                 </a>
                 <a href="mailto:hensenisme@gmail.com">

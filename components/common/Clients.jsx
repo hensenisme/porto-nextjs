@@ -39,15 +39,15 @@ function Clients() {
     <section className="clients-carso in-circle section-padding">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-lg-6 col-md-10">
+          <div className="col-xl-7 col-lg-8 col-md-10">
             <div className="sec-head text-center mb-80">
               <h3>
-                I&apos;m proud to work with <br /> a{' '}
-                <span className="opacity-7">diverse range of companies.</span>
+                I&apos;m proud to have participated in competitions and collaborated with various institutions.
               </h3>
             </div>
           </div>
         </div>
+
         <div className="swiper5" data-carousel="swiper">
           <Swiper
             {...swiperOptions}
@@ -81,8 +81,8 @@ function Clients() {
         <div className="sec-bottom mt-100">
           <div className="main-bg d-flex align-items-center">
             <h6 className="fz-14 fw-400">
-              More than <span className="fw-400"> 200+ companies</span>
-              trusted me worldwide
+              Trusted for <span className="fw-400">delivering innovative </span>
+              {" "}software and IoT solutions.
             </h6>
           </div>
         </div>

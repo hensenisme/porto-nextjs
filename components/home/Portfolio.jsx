@@ -353,8 +353,7 @@ ter">
         <div className="sec-bottom mt-100">
           <div className="main-bg d-flex align-items-center">
             <h6 className="fz-14 fw-400">
-              More than <span className="fw-600"> 200+ companies</span> trusted
-              me worldwide
+              Delivering innovative <span className="fw-600"> software and IoT solutions for a </span> variety of challenges.
             </h6>
           </div>
         </div>
