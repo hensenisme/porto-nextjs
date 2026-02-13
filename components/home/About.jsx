@@ -138,7 +138,7 @@ function About() {
                 <p>
                   With a background in Computer Engineering, I work on transforming complex technical requirements into clear and functional solutions. My experience includes full-stack web development, cross-platform mobile applications, and end-to-end IoT systems, with an emphasis on maintainability and scalability.
                 </p>
-                <Link href="/assets/CV-Hensen.pdf" target="_blank" className="butn butn-md butn-bord radius-30 mt-30">
+                <Link href="/cv-hendri.pdf" target="_blank" className="butn butn-md butn-bord radius-30 mt-30">
                   <span className="text">Download CV</span>
                 </Link>
                 <div className="numbers mt-50">
